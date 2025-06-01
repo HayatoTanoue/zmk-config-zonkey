@@ -218,8 +218,8 @@
         layer_2 {
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                                &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(NUMBER_0)
-&trans            &trans            &trans            &trans            &trans            &trans                &trans  &kp RS(EQUAL)     &trans            &trans            &kp C_MENU_UP     &trans
-&trans            &trans            &trans            &trans            &trans            &trans                &trans  &trans            &trans            &kp C_MENU_LEFT   &kp C_MENU_DOWN   &kp C_MENU_RIGHT
+&trans            &trans            &trans            &trans            &trans            &trans                &trans  &kp RS(EQUAL)     &trans            &kp UP_ARROW      &trans            &trans
+&trans            &trans            &trans            &trans            &trans            &trans                &trans  &trans            &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW   &trans
 &trans            &trans            &trans            &lt 0 INT_HENKAN  &lt 2 SPACE       &lt 4 INT_MUHENKAN            &trans            &trans                                                                  &trans
             >;
 
